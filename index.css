@@ -1,0 +1,58 @@
+body{
+    
+    background:orange;
+}
+.tm-container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.tm-header{
+    background: yellow;
+    margin-bottom: 20px;
+    
+}
+.grad{
+     background: #fff;
+    background: linear-gradient(to right white,yellow);
+}
+.tm-nav ul li{
+    display: inline-block;
+}
+
+.tm-nav ul li a{
+    padding: 10px 20px;
+    text-decoration:none;
+    color: red;
+    line-height: 70px;
+    
+}
+.tm-header::after{
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+}
+
+.tm-logo{
+    float: left
+}
+
+.tm-nav {
+    float: right
+}
+.tm-nav ul li a:hover{
+    color: blue;
+}
+/* second part*/
+
+
+.tm-container{
+    margin-bottom: 20px;
+    margin-right: 60px;
+    padding-left: 150px
+}
+.tm-article{
+    margin-bottom: 20px;
+    display: inline-block;
+}
